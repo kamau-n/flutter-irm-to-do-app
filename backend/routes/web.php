@@ -9,3 +9,6 @@ use Illuminate\Support\Facades\Route;
 // });
 
 use Illuminate\Http\JsonResponse;
+
+
+Route::apiResource('tasks', TaskController::class);
