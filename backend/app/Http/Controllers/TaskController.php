@@ -1,6 +1,7 @@
 <?php
 
-namespace App\Http\Controllers\Api;
+namespace App\Http\Controllers;
+
 
 use App\Http\Controllers\Controller;
 use App\Models\Task;
@@ -10,7 +11,6 @@ use Illuminate\Validation\ValidationException;
 
 class TaskController extends Controller
 {
-
 
     // Get All the tasks
     public function index(): JsonResponse
